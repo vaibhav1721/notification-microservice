@@ -1,0 +1,22 @@
+{
+  "PORT" : 3000,
+  "databaseSettings" :{
+    "host"    : "localhost",
+    "mongo_db_connection":"mongodb://127.0.0.1:27017/db_services"
+  },
+  "mongoCollections" :{
+  },
+  "twillioCredentials":{
+    "accountSid" : "", // input the sid
+    "authToken" : "", // input the token
+    "fromNumber" : [] // input the default sender numner ["+839933333"]
+  },
+  "emailCredentials":{
+    "host": "",// smtp host
+    "port": 587,
+    "senderEmail": "", // default senders number
+    "multipleSupportEmailIds": "''",
+    "senderPassword": "-Q", // sender password
+    "From": "" // sender address
+  }
+}
